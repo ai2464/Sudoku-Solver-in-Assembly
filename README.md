@@ -17,7 +17,7 @@ This project is an Assembly language implementation of a Sudoku solver. It effic
 ### Installation
 1. Clone the repository or download the source code.
 ```
-git clone [url]
+git clone https://github.com/ai2464/Sudoku-Solver-in-Assembly.git
 ```
 2. Open the `.s` file in your MIPS Assembly Simulator.
 
