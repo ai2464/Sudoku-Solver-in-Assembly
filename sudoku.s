@@ -30,7 +30,7 @@ return_num:
 	addi $sp, $sp, 8
 	jr $ra
 
-#### Do not move this separator. Place all of your num_candidates code above this line. ####
+#### Do not move this separator ####
 
 # a0: pointer to cell
 # a1: candidate to eliminate from cell 
@@ -53,7 +53,7 @@ change_rule:
 return_rule:
 	jr $ra
 
-#### Do not move this separator. Place all of your rule_out_of_cell code above this line, and below previous separator. ###
+#### Do not move this separator. ###
 	
 # a0: pointer to board
 # v0: number of solved cells
@@ -101,7 +101,7 @@ return_counter:
     addi $sp, $sp, 12  				
     jr $ra
 
-#### Do not move this separator. Place all of your count_solved_cells code above this line, and below previous separator. ###
+#### Do not move this separator.  ###
 	
 # a0: pointer to board
 # (orignial pointer a0, current_cell pointer a1)
@@ -178,7 +178,7 @@ return_solved_board:
 	addi $sp, $sp, 20
 	jr $ra
 
-#### Do not move this separator. Place all of your solve_board code above this line, and below previous separator. ###
+#### Do not move this separator. ###
 
 main:
 	addi $sp, $sp, -8
